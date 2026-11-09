@@ -1,0 +1,24 @@
+# Build output
+bin/
+build/
+build-*/
+saves/
+screenshots/
+labyrinth_*.png
+out/
+*.o
+*.obj
+*.exe
+
+# IDE files
+.vs/
+.vscode/
+.idea/
+*.user
+x64/
+Debug/
+Release/
+
+# Ready-made builds (attach to a GitHub Release instead)
+windows/
+linux/
