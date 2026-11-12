@@ -1,0 +1,6 @@
+// Windows resources: the .exe icon (same art as the window icon).
+// Generated art: tools/make_icon.py -> assets/icon.ico
+// The name GLFW_ICON matters: GLFW (inside raylib) gives its window class the
+// icon with this name, so the taskbar, Alt+Tab and the title bar all show it.
+// The first icon in the file is also what Explorer shows for Labyrinth.exe.
+GLFW_ICON ICON "../../assets/icon.ico"
