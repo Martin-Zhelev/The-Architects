@@ -3,7 +3,7 @@ bin/
 build/
 build-*/
 saves/
-screenshots/
+/screenshots/
 labyrinth_*.png
 out/
 *.o
