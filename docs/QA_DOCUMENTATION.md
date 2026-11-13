@@ -1,6 +1,6 @@
 # Labyrinth — QA Documentation
 
-*Author: ______ (QA)*
+*Author: Ivan Trifonov (QA)*
 
 ## 1. Strategy
 
