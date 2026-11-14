@@ -1,8 +1,8 @@
 # Labyrinth — Project Plan (GitHub)
 
-*Author: ______ (Scrum Trainer)*
+*Author: Martin Jelev (Scrum Trainer)*
 
-Project period: **21 Oct – 15 Nov 2026**. Defence: **16–17 Nov** (check the exact date with the teacher; the assignment PDF says 2025).
+Project period: **21 Oct – 15 Nov 2026**. Defence: **16–17 Nov**.
 
 ## 1. Sprints
 
