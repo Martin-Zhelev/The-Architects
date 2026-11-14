@@ -1,6 +1,6 @@
 # Labyrinth — Project Plan (GitHub)
 
-*Author: Martin Jelev (Scrum Trainer)*
+*Author: ______ (Scrum Trainer)*
 
 Project period: **21 Oct – 15 Nov 2026**. Defence: **16–17 Nov** (check the exact date with the teacher; the assignment PDF says 2025).
 
@@ -12,7 +12,7 @@ Project period: **21 Oct – 15 Nov 2026**. Defence: **16–17 Nov** (check the 
 | 2 | 28 Oct – 3 Nov | Arrow keys, menu, validation, tests, Number Trail | v1 complete, play-tested |
 | 3 | 4 – 8 Nov | **3D app**: renderer, 5 worlds, items, Minotaur, campaign, profiles, saving | v2 playable |
 | 4 | 9 – 12 Nov | Play-testing, bug fixing, balancing, Windows build, docs | v2 release |
-| 5 | 13 – 15 Nov | Every member studies their code (`CODE_TOUR.md`), presentation, two rehearsals | ready to defend |
+| 5 | 13 – 15 Nov | Presentation and two rehearsals | ready to defend |
 
 ## 2. GitHub setup
 
@@ -57,7 +57,7 @@ Project period: **21 Oct – 15 Nov 2026**. Defence: **16–17 Nov** (check the 
 | 29 | Fix: Win event lost when event list full | bug | Backend | 4 |
 | 30 | Balance: par times from real routes | enhancement | Backend | 4 |
 | 31 | Windows .exe build | docs | Scrum | 4 |
-| 32 | Documentation + code tour | docs | All | 4 |
+| 32 | Documentation | docs | All | 4 |
 | 33 | Presentation + rehearsals | docs | Scrum | 5 |
 | 34 | Fix: minimap arrow points backwards | bug | Frontend | 4 |
 | 35 | Third-person chase camera as the default view | enhancement | Frontend | 4 |
@@ -113,4 +113,4 @@ Closes #27.
 - Builds with no warnings; all 74 tests pass.
 - New rules have tests; new screens appear in the screenshot tour.
 - Reviewed by one teammate, merged into `main`, issue closed.
-- The author can explain the code in their own words (see `CODE_TOUR.md`).
+- The author can explain the code in their own words.

@@ -121,7 +121,7 @@ src/
   input.* ui.* main.cpp                      the classic terminal edition
 tests/test_main.cpp                          74 automated tests (1078 checks)
 tools/                                       font embedding, the icon (make_icon.py), MinGW toolchain
-docs/                                        technical, QA, plan, presentation, code tour, GitHub plan
+docs/                                        technical, QA, plan, presentation
 ```
 
 The game rules never draw anything or read the keyboard. The app only *reads* the game state, draws it, and turns key presses into calls such as `movePlayer()`. That is why the rules can be tested automatically, and why the 3D app and the terminal edition share the same rules.
