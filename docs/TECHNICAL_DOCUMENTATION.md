@@ -206,11 +206,11 @@ Panels are drawn as a rounded fill plus a border band that shares the fill's exa
 
 ## 5. QA
 
-*Author: ______ (QA)* — see [QA_DOCUMENTATION.md](QA_DOCUMENTATION.md).
+*Author: Ivan Trifonov (QA)* — see [QA_DOCUMENTATION.md](QA_DOCUMENTATION.md).
 
 ## 6. Planning
 
-*Author: ______ (Scrum Trainer)* — see [PROJECT_PLAN.md](PROJECT_PLAN.md).
+*Author: Martin Jelev (Scrum Trainer)* — see [PROJECT_PLAN.md](PROJECT_PLAN.md).
 
 ## 7. Conventions
 
