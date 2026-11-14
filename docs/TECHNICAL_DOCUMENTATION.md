@@ -60,7 +60,7 @@ From the current square the player may move right, down or diagonally; the corre
 
 ## 3. Backend — game rules
 
-*Author: ______ (Backend Developer)*
+*Author: Georgi Nikolov (Backend Developer)*
 
 ### 3.1 Storing the maze (dynamic 2D arrays)
 
