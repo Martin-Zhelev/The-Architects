@@ -162,39 +162,39 @@ A script starts the game in a virtual display and sends real key presses with `x
 
 | ID | Steps | Expected | ✓ |
 |---|---|---|---|
-| M01 | Start the game | animated splash, music; the taskbar and .exe icons are the same | ☐ |
-| M02 | New profile `!!` then `Ana` | first refused with a message, second created | ☐ |
-| M03 | Main menu with arrows, Enter, mouse, gamepad | focus moves, sounds play | ☐ |
-| M04 | Free Play seed `99999999999` | error message, game does not start | ☐ |
-| M05 | Free Play seed `7` twice | the same maze twice | ☐ |
-| M06 | Third person (default) and first person: ↑ ↓ ← → Q E | walk, step back, turn, strafe; minimap arrow always points where you walk | ☐ |
-| M07 | Walk into a wall | bump sound, small shake, no move | ☐ |
-| M08 | Locked door without / with key | message / door sinks into the floor | ☐ |
-| M09 | `V` three times, mouse wheel | third → first → top-down → third, zoom | ☐ |
-| M10 | `T` three times | side panel → full-screen text → off | ☐ |
-| M11 | `H` | glowing orbs show the route, −100 | ☐ |
-| M12 | Hammer + Space at a wall | wall breaks with particles | ☐ |
-| M13 | Minotaur level | eyes turn red when hunting, heartbeat, red edges, caught = −1 life | ☐ |
-| M14 | Hourglass | Minotaurs freeze, icy edges | ☐ |
-| M15 | Time Attack | countdown turns red at 30 s, ticks at 10 s | ☐ |
-| M16 | Win a campaign level | stars appear one by one, score counts up, next level unlocks | ☐ |
-| M17 | Pause → Save & Quit → Continue | exact same game restored | ☐ |
-| M18 | Number Trail: wrong step, clicking a square, diagonal with E | heart lost / step taken / diagonal | ☐ |
-| M19 | Settings: volume, CRT, bloom, reduce motion, FOV | applied immediately and remembered | ☐ |
-| M20 | Resize window, F11 twice, Settings fullscreen switch on/off, F12 | layout scales, fullscreen turns on AND off every time, screenshot saved | ☐ |
-| M21 | Windows `Labyrinth.exe` on a school PC | starts without installing anything | ☐ |
-| M22 | No sound card | game runs silently, settings shows a note | ☐ |
-| M23 | Win a level, then ← → Enter / N / R / Esc on the results | buttons react at once | ☐ |
-| M23c | Switch to another window while music plays | game fades to silence, comes back when you return (Settings: mute in background) | ☐ |
-| M23d | Map Maker → TUTORIAL: YOUR FIRST MAP, follow all steps | each step ticks DONE and moves on; test play verifies the map | ☐ |
-| M23f | Change a setting, end the game from Task Manager, start it again | the change is still there | ☐ |
+| M01 | Start the game | animated splash, music; the taskbar and .exe icons are the same | ✅ |
+| M02 | New profile `!!` then `Ana` | first refused with a message, second created | ✅ |
+| M03 | Main menu with arrows, Enter, mouse, gamepad | focus moves, sounds play | ✅ |
+| M04 | Free Play seed `99999999999` | error message, game does not start | ✅ |
+| M05 | Free Play seed `7` twice | the same maze twice | ✅ |
+| M06 | Third person (default) and first person: ↑ ↓ ← → Q E | walk, step back, turn, strafe; minimap arrow always points where you walk | ✅ |
+| M07 | Walk into a wall | bump sound, small shake, no move | ✅ |
+| M08 | Locked door without / with key | message / door sinks into the floor | ✅ |
+| M09 | `V` three times, mouse wheel | third → first → top-down → third, zoom | ✅ |
+| M10 | `T` three times | side panel → full-screen text → off | ✅ |
+| M11 | `H` | glowing orbs show the route, −100 | ✅ |
+| M12 | Hammer + Space at a wall | wall breaks with particles | ✅ |
+| M13 | Minotaur level | eyes turn red when hunting, heartbeat, red edges, caught = −1 life | ✅ |
+| M14 | Hourglass | Minotaurs freeze, icy edges | ✅ |
+| M15 | Time Attack | countdown turns red at 30 s, ticks at 10 s | ✅ |
+| M16 | Win a campaign level | stars appear one by one, score counts up, next level unlocks | ✅ |
+| M17 | Pause → Save & Quit → Continue | exact same game restored | ✅ |
+| M18 | Number Trail: wrong step, clicking a square, diagonal with E | heart lost / step taken / diagonal | ✅ |
+| M19 | Settings: volume, CRT, bloom, reduce motion, FOV | applied immediately and remembered | ✅ |
+| M20 | Resize window, F11 twice, Settings fullscreen switch on/off, F12 | layout scales, fullscreen turns on AND off every time, screenshot saved | ✅ |
+| M21 | Windows `Labyrinth.exe` on a school PC | starts without installing anything | ✅ |
+| M22 | No sound card | game runs silently, settings shows a note | ✅ |
+| M23 | Win a level, then ← → Enter / N / R / Esc on the results | buttons react at once | ✅ |
+| M23c | Switch to another window while music plays | game fades to silence, comes back when you return (Settings: mute in background) | ✅ |
+| M23d | Map Maker → TUTORIAL: YOUR FIRST MAP, follow all steps | each step ticks DONE and moves on; test play verifies the map | ✅ |
+| M23f | Change a setting, end the game from Task Manager, start it again | the change is still there | ✅ |
 | M23e | F3 in any screen | FPS chip appears / disappears | ☐ |
-| M23b | Press ← firmly (about half a second), then tap ↑ firmly | exactly one 90° turn, exactly one step; holding ↑ keeps walking | ☐ |
-| M24 | Step onto a portal while holding ↑ | you land on the twin pad (same colour) and stay there until you let go | ☐ |
-| M25 | Minotaur Hunt | Minotaurs appear behind you one by one and chase you | ☐ |
-| M26 | Settings → admin code `MINOTAUR` | every level, star and achievement unlocked; F9 warps to the exit | ☐ |
-| M27 | Map maker: new map, carve, items, name, TEST PLAY, win | map becomes VERIFIED and playable from the list | ☐ |
-| M28 | Copy a `.lmap` to another PC and drop it onto the window | map appears in the list | ☐ |
+| M23b | Press ← firmly (about half a second), then tap ↑ firmly | exactly one 90° turn, exactly one step; holding ↑ keeps walking | ✅ |
+| M24 | Step onto a portal while holding ↑ | you land on the twin pad (same colour) and stay there until you let go | ✅ |
+| M25 | Minotaur Hunt | Minotaurs appear behind you one by one and chase you | ✅ |
+| M26 | Settings → admin code `MINOTAUR` | every level, star and achievement unlocked; F9 warps to the exit | ✅ |
+| M27 | Map maker: new map, carve, items, name, TEST PLAY, win | map becomes VERIFIED and playable from the list | ✅ |
+| M28 | Copy a `.lmap` to another PC and drop it onto the window | map appears in the list | ✅ |
 
 ## 6. Bugs found and fixed
 
